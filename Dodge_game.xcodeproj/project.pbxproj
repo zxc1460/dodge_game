@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A14A936E1845B401D53C03EA /* Pods_Dodge_game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3E517D2EC75DD21896C22E /* Pods_Dodge_game.framework */; };
 		AF201CEA2539C3AF00981672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF201CE92539C3AF00981672 /* AppDelegate.swift */; };
 		AF201CEC2539C3AF00981672 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF201CEB2539C3AF00981672 /* SceneDelegate.swift */; };
 		AF201CEE2539C3AF00981672 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF201CED2539C3AF00981672 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		AF201CF92539C3B100981672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF201CF72539C3B100981672 /* LaunchScreen.storyboard */; };
 		AF201D042539C3B200981672 /* Dodge_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF201D032539C3B200981672 /* Dodge_gameTests.swift */; };
 		AF201D0F2539C3B200981672 /* Dodge_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF201D0E2539C3B200981672 /* Dodge_gameUITests.swift */; };
+		B6E16611B6362D3AAE6FE925 /* Pods_Dodge_game_Dodge_gameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A48DB3A0145CB79FD62452 /* Pods_Dodge_game_Dodge_gameUITests.framework */; };
+		EE35049390ED52DEE9F73747 /* Pods_Dodge_gameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377DA39940DA76457F0AEFF9 /* Pods_Dodge_gameTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		377DA39940DA76457F0AEFF9 /* Pods_Dodge_gameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dodge_gameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3E517D2EC75DD21896C22E /* Pods_Dodge_game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dodge_game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		700605276E9E1F05E8FF8105 /* Pods-Dodge_game-Dodge_gameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dodge_game-Dodge_gameUITests.release.xcconfig"; path = "Target Support Files/Pods-Dodge_game-Dodge_gameUITests/Pods-Dodge_game-Dodge_gameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		76DA63405006BAF709D74EC5 /* Pods-Dodge_game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dodge_game.release.xcconfig"; path = "Target Support Files/Pods-Dodge_game/Pods-Dodge_game.release.xcconfig"; sourceTree = "<group>"; };
 		AF201CE62539C3AF00981672 /* Dodge_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dodge_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF201CE92539C3AF00981672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF201CEB2539C3AF00981672 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		AF201D0A2539C3B200981672 /* Dodge_gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dodge_gameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF201D0E2539C3B200981672 /* Dodge_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dodge_gameUITests.swift; sourceTree = "<group>"; };
 		AF201D102539C3B200981672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54552FFE873904556C5BFC7 /* Pods-Dodge_gameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dodge_gameTests.release.xcconfig"; path = "Target Support Files/Pods-Dodge_gameTests/Pods-Dodge_gameTests.release.xcconfig"; sourceTree = "<group>"; };
+		E77044296D1EE271B98DCAEC /* Pods-Dodge_game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dodge_game.debug.xcconfig"; path = "Target Support Files/Pods-Dodge_game/Pods-Dodge_game.debug.xcconfig"; sourceTree = "<group>"; };
+		EF8F34CEE37685043FBBFB8C /* Pods-Dodge_game-Dodge_gameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dodge_game-Dodge_gameUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dodge_game-Dodge_gameUITests/Pods-Dodge_game-Dodge_gameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2A48DB3A0145CB79FD62452 /* Pods_Dodge_game_Dodge_gameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dodge_game_Dodge_gameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A112D7747F089BA28CD13D /* Pods-Dodge_gameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dodge_gameTests.debug.xcconfig"; path = "Target Support Files/Pods-Dodge_gameTests/Pods-Dodge_gameTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14A936E1845B401D53C03EA /* Pods_Dodge_game.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE35049390ED52DEE9F73747 /* Pods_Dodge_gameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E16611B6362D3AAE6FE925 /* Pods_Dodge_game_Dodge_gameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05F64C92D0BA06B024941503 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E77044296D1EE271B98DCAEC /* Pods-Dodge_game.debug.xcconfig */,
+				76DA63405006BAF709D74EC5 /* Pods-Dodge_game.release.xcconfig */,
+				EF8F34CEE37685043FBBFB8C /* Pods-Dodge_game-Dodge_gameUITests.debug.xcconfig */,
+				700605276E9E1F05E8FF8105 /* Pods-Dodge_game-Dodge_gameUITests.release.xcconfig */,
+				F7A112D7747F089BA28CD13D /* Pods-Dodge_gameTests.debug.xcconfig */,
+				C54552FFE873904556C5BFC7 /* Pods-Dodge_gameTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1BC5CD394C2098B9F07EA21B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E3E517D2EC75DD21896C22E /* Pods_Dodge_game.framework */,
+				F2A48DB3A0145CB79FD62452 /* Pods_Dodge_game_Dodge_gameUITests.framework */,
+				377DA39940DA76457F0AEFF9 /* Pods_Dodge_gameTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF201CDD2539C3AF00981672 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				AF201D022539C3B200981672 /* Dodge_gameTests */,
 				AF201D0D2539C3B200981672 /* Dodge_gameUITests */,
 				AF201CE72539C3AF00981672 /* Products */,
+				05F64C92D0BA06B024941503 /* Pods */,
+				1BC5CD394C2098B9F07EA21B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF201D132539C3B200981672 /* Build configuration list for PBXNativeTarget "Dodge_game" */;
 			buildPhases = (
+				0881036F6BBD02E7D588FC3C /* [CP] Check Pods Manifest.lock */,
 				AF201CE22539C3AF00981672 /* Sources */,
 				AF201CE32539C3AF00981672 /* Frameworks */,
 				AF201CE42539C3AF00981672 /* Resources */,
+				0D17CCB5006F241B2DD6407E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF201D162539C3B200981672 /* Build configuration list for PBXNativeTarget "Dodge_gameTests" */;
 			buildPhases = (
+				59B2DB9F51A89D2332A03513 /* [CP] Check Pods Manifest.lock */,
 				AF201CFB2539C3B200981672 /* Sources */,
 				AF201CFC2539C3B200981672 /* Frameworks */,
 				AF201CFD2539C3B200981672 /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF201D192539C3B200981672 /* Build configuration list for PBXNativeTarget "Dodge_gameUITests" */;
 			buildPhases = (
+				5A2A184BAE7293FFECDE3B25 /* [CP] Check Pods Manifest.lock */,
 				AF201D062539C3B200981672 /* Sources */,
 				AF201D072539C3B200981672 /* Frameworks */,
 				AF201D082539C3B200981672 /* Resources */,
+				B0D54C0ED410F7E3ACF701B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +301,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0881036F6BBD02E7D588FC3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dodge_game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D17CCB5006F241B2DD6407E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dodge_game/Pods-Dodge_game-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dodge_game/Pods-Dodge_game-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dodge_game/Pods-Dodge_game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59B2DB9F51A89D2332A03513 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dodge_gameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A2A184BAE7293FFECDE3B25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dodge_game-Dodge_gameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0D54C0ED410F7E3ACF701B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dodge_game-Dodge_gameUITests/Pods-Dodge_game-Dodge_gameUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dodge_game-Dodge_gameUITests/Pods-Dodge_game-Dodge_gameUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dodge_game-Dodge_gameUITests/Pods-Dodge_game-Dodge_gameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF201CE22539C3AF00981672 /* Sources */ = {
@@ -437,6 +586,7 @@
 		};
 		AF201D142539C3B200981672 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77044296D1EE271B98DCAEC /* Pods-Dodge_game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +606,7 @@
 		};
 		AF201D152539C3B200981672 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DA63405006BAF709D74EC5 /* Pods-Dodge_game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +626,7 @@
 		};
 		AF201D172539C3B200981672 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A112D7747F089BA28CD13D /* Pods-Dodge_gameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +649,7 @@
 		};
 		AF201D182539C3B200981672 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54552FFE873904556C5BFC7 /* Pods-Dodge_gameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +672,7 @@
 		};
 		AF201D1A2539C3B200981672 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF8F34CEE37685043FBBFB8C /* Pods-Dodge_game-Dodge_gameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +693,7 @@
 		};
 		AF201D1B2539C3B200981672 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700605276E9E1F05E8FF8105 /* Pods-Dodge_game-Dodge_gameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
